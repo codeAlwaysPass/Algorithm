@@ -4,6 +4,8 @@ def isPalindrome(num):
     
     reversed_half = 0
     
+    #1212,1 121 21, 12,121
+    
     while num > reversed_half:
         pop = num % 10
         num //= 10
